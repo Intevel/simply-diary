@@ -186,7 +186,7 @@ ZTptb2RpZnkAMjAyMS0wOS0wOVQxMDozNjozNyswMzowMDm/SD4AAAAASUVORK5CYII=" />
                     Home</NuxtLink>
                 </li>
                 <li>
-                  <a href="https://github.com/intevel/simply-diary/"
+                  <a href="https://github.com/cnrycodes/simply-diary/"
                     class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-simplydiary-primary">Github</a>
                 </li>
                 <li>
