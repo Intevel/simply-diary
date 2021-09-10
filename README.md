@@ -1,4 +1,4 @@
-# fosscord-landingpagev3
+# simply-diary
 
 ## Build Setup
 
