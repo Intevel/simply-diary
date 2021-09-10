@@ -15,21 +15,28 @@
               Create a new Diary Entry
             </h2>
             <div class="flex items-center sm:justify-center">
-              <a href="https://github.com/Intevel/simply-diary/" aria-label=""
-                class="inline-flex items-center font-semibold text-gray-700 transition-colors duration-200 hover:text-simplydiary-primary">Back to Diary</a>
+              <a :href="`${this.backurl}`" aria-label=""
+                class="inline-flex items-center font-semibold text-gray-700 transition-colors duration-200 hover:text-simplydiary-primary">Back
+                to Diary</a>
             </div>
           </div>
         </div>
       </div>
 
     </div>
-    <div class="px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-16">
+    <div class="px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-16" @submit.prevent="createNewEntry">
       <div class="max-w-screen-lg sm:mx-auto">
-        <div class="col-lg-12 text-start mt-5">
-          <DiaryEntry v-for="post in this.entrys" :key="post.created_at" :created_at="post.date_string"
-            :content="post.content">
-          </DiaryEntry>
-        </div>
+        <form class="col-lg-12 text-start mt-5">
+          <label class="block">
+            <span class="text-black font-bold font-nunito text-xl">Start writing, sort your feelings: </span>
+            <textarea v-model="entry" class="form-textarea mt-1 mb-3 block w-full border-2 border-simplydiary-primary rounded border-opacity-50 focus:border-simplydiary-secondary focus:outline-none focus:shadow-outline" rows="12"
+              placeholder="Today I saw my dream girl again...." required></textarea>
+			  <button type="submit"
+                    class="inline-flex items-center  h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-blue-gray-900 hover:bg-gray-700 focus:shadow-outline focus:outline-none">
+                    Create Entry
+              </button>
+          </label>
+        </form>
       </div>
     </div>
 
@@ -55,13 +62,21 @@
     data() {
       return {
         diary: {},
-        entrys: []
+		backurl: "",
+        entry: "",
       };
     },
 
     methods: {
-      async download() {
-        
+      async createNewEntry() {
+        var createdDiaryPost = await this.$axios.post("http://localhost:8080/v1/diarys/" + this.$nuxt.context
+          .params
+          .slug + "/posts", {
+            content: this.entry
+          });
+        this.$router.push(`/diarys/${this.$nuxt.context
+          .params
+          .slug}`)
 
       }
     },
@@ -72,9 +87,7 @@
         var fetchedDiary = await this.$axios.get("http://localhost:8080/v1/diarys/" + this.$nuxt.context.params
           .slug)
         this.diary = fetchedDiary.data;
-        this.entrys = fetchedDiary.data.posts;
-        console.log(this.entrys)
-        console.log(this.diary)
+		this.backurl = "http://localhost:3000/diarys/" + fetchedDiary.data.code;
       } catch (err) {
         console.log("error" + err);
         this.$nuxt.context.error({
