@@ -8,7 +8,7 @@
             <div>
               <p
                 class="inline-block px-3 py-1 mb-4 text-xs font-bold tracking-wider text-white uppercase rounded-full bg-simplydiary-primary">
-                {{ this.diary.created_at }} </p>
+                Diary Code: {{ this.diary.code }} </p>
             </div>
             <h2
               class="max-w-lg mb-2 font-sans text-6xl font-bold leading-none tracking-tight text-gray-900 sm:text-6xl md:mx-auto">
@@ -23,9 +23,9 @@
       </div>
 
     </div>
-    <div class="px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-16">
+    <div class="px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-16 justify-items-center">
       <div class="max-w-screen-lg sm:mx-auto">
-        <div class="col-lg-12 text-start mt-5">
+        <div class="col-lg-12 text-center mt-5">
           <DiaryEntry v-for="post in this.entrys" :key="post.created_at" :created_at="post.date_string"
             :content="post.content">
           </DiaryEntry>
