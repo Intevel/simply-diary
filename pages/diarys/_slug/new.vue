@@ -15,8 +15,8 @@
               Create a new Diary Entry
             </h2>
             <div class="flex items-center sm:justify-center">
-              <button href="https://github.com/Intevel/simply-diary/" aria-label=""
-                class="inline-flex items-center font-semibold text-gray-700 transition-colors duration-200 hover:text-simplydiary-primary">Back to Diary</button>
+              <a href="https://github.com/Intevel/simply-diary/" aria-label=""
+                class="inline-flex items-center font-semibold text-gray-700 transition-colors duration-200 hover:text-simplydiary-primary">Back to Diary</a>
             </div>
           </div>
         </div>
@@ -49,13 +49,9 @@
 </style>
 <script lang="ts">
   import Vue from "vue";
-  import DiaryEntry from "../../../components/diaryentry.vue";
 
 
   export default Vue.extend({
-    components: {
-      DiaryEntry
-    },
     data() {
       return {
         diary: {},
