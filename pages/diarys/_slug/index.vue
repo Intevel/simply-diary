@@ -73,7 +73,7 @@
 
     mounted: async function () {
       try {
-        var fetchedDiary = await this.$axios.get("http://localhost:8080/v1/diarys/" + this.$nuxt.context.params
+        var fetchedDiary = await this.$axios.get("https://api.simply-diary.xyz/v1/diarys/" + this.$nuxt.context.params
           .slug)
         this.diary = fetchedDiary.data;
         this.entrys = fetchedDiary.data.posts;
