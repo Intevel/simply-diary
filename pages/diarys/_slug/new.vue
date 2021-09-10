@@ -69,7 +69,7 @@
 
     methods: {
       async createNewEntry() {
-        var createdDiaryPost = await this.$axios.post("http://localhost:8080/v1/diarys/" + this.$nuxt.context
+        var createdDiaryPost = await this.$axios.post("https://api.simply-diary.xyz/v1/diarys/" + this.$nuxt.context
           .params
           .slug + "/posts", {
             content: this.entry
@@ -84,7 +84,7 @@
 
     mounted: async function () {
       try {
-        var fetchedDiary = await this.$axios.get("http://localhost:8080/v1/diarys/" + this.$nuxt.context.params
+        var fetchedDiary = await this.$axios.get("https://api.simply-diary.xyz/v1/diarys/" + this.$nuxt.context.params
           .slug)
         this.diary = fetchedDiary.data;
 		this.backurl = "http://localhost:3000/diarys/" + fetchedDiary.data.code;
