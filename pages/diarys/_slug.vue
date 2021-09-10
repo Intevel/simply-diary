@@ -7,7 +7,7 @@
           <div class="max-w-xl md:mx-auto sm:text-center lg:max-w-2xl">
             <div>
               <p
-                class="inline-block px-3 py-1 mb-4 text-xs font-bold tracking-wider text-white uppercase rounded-full bg-simplydiary-primary">
+                class="inline-block px-3 py-1 mb-4 text-xs font-bold tracking-wider text-white rounded-full bg-simplydiary-primary">
                 Diary Code: {{ this.diary.code }} </p>
             </div>
             <h2
