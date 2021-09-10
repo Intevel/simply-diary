@@ -8,15 +8,15 @@
             <div>
               <p
                 class="inline-block px-3 py-1 mb-4 text-xs font-bold tracking-wider text-white rounded-full bg-simplydiary-primary">
-                NEW </p>
+                Diary Code: {{ this.diary.code }} </p>
             </div>
             <h2
               class="max-w-lg mb-2 font-sans text-6xl font-bold leading-none tracking-tight text-gray-900 sm:text-6xl md:mx-auto">
-              Your Diary: <br> {{ this.diary.title }}
+              Create a new Diary Entry
             </h2>
             <div class="flex items-center sm:justify-center">
               <button href="https://github.com/Intevel/simply-diary/" aria-label=""
-                class="inline-flex items-center font-semibold text-gray-700 transition-colors duration-200 hover:text-simplydiary-primary">Create new diary entry</button>
+                class="inline-flex items-center font-semibold text-gray-700 transition-colors duration-200 hover:text-simplydiary-primary">Back to Diary</button>
             </div>
           </div>
         </div>
