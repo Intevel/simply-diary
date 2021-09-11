@@ -22,7 +22,7 @@
           >
             Create a Diary
           </NuxtLink>
-          <a href="https://github.com/Intevel/simply-diary/" aria-label="" class="inline-flex items-center font-semibold text-gray-700 transition-colors duration-200 hover:text-simplydiary-primary">Star us on Github</a>
+          <a href="https://github.com/cnrycodes/simply-diary/stargazers" aria-label="" class="inline-flex items-center font-semibold text-gray-700 transition-colors duration-200 hover:text-simplydiary-primary">Star us on Github</a>
         </div>
       </div>
     </div>
