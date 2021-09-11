@@ -2,6 +2,7 @@
   <div>
 	  <navbar />
 	  <new-hero />
+	  <footer-lp />
   </div>
 </template>
 <style>
