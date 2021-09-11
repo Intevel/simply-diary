@@ -87,7 +87,7 @@
         var fetchedDiary = await this.$axios.get("https://api.simply-diary.xyz/v1/diarys/" + this.$nuxt.context.params
           .slug)
         this.diary = fetchedDiary.data;
-		this.backurl = "http://localhost:3000/diarys/" + fetchedDiary.data.code;
+		this.backurl = "https://simply-diary.xyz/diarys/" + fetchedDiary.data.code;
       } catch (err) {
         console.log("error" + err);
         this.$nuxt.context.error({

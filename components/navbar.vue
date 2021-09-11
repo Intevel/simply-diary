@@ -1,7 +1,7 @@
 <template>
   <div class="px-2 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-2 lg:px-2">
     <div class="relative flex items-center justify-between">
-      <a href="/" class="inline-flex items-center">
+      <NuxtLink to="/" class="inline-flex items-center">
         <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
           x="0px" y="0px" width="183px" height="29px" viewBox="0 0 183 29" enable-background="new 0 0 183 29"
           xml:space="preserve">
@@ -62,7 +62,7 @@ uHqEIXSf6i0K61JV5UYb4TThCxX11X065mGCUuBk7/41VJk4EH8DO4hB5I//A/3MEQA7QrNzAAAA
 JXRFWHRkYXRlOmNyZWF0ZQAyMDIxLTA5LTA5VDEwOjM2OjM3KzAzOjAwSOLwggAAACV0RVh0ZGF0
 ZTptb2RpZnkAMjAyMS0wOS0wOVQxMDozNjozNyswMzowMDm/SD4AAAAASUVORK5CYII=" />
         </svg>
-      </a>
+      </NuxtLink>
       <ul class="flex items-center hidden space-x-8 lg:flex">
         <li>
           <NuxtLink to="/"
@@ -102,7 +102,7 @@ ZTptb2RpZnkAMjAyMS0wOS0wOVQxMDozNjozNyswMzowMDm/SD4AAAAASUVORK5CYII=" />
           <div class="p-5 bg-white border rounded shadow-sm">
             <div class="flex items-center justify-between mb-4">
               <div>
-                <a href="/" class="inline-flex items-center">
+                <NuxtLink to="/" class="inline-flex items-center">
                   <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="183px" height="29px"
                     viewBox="0 0 183 29" enable-background="new 0 0 183 29" xml:space="preserve">
@@ -164,7 +164,7 @@ JXRFWHRkYXRlOmNyZWF0ZQAyMDIxLTA5LTA5VDEwOjM2OjM3KzAzOjAwSOLwggAAACV0RVh0ZGF0
 ZTptb2RpZnkAMjAyMS0wOS0wOVQxMDozNjozNyswMzowMDm/SD4AAAAASUVORK5CYII=" />
                   </svg>
 
-                </a>
+                </NuxtLink>
               </div>
               <div>
                 <button aria-label="Close Menu" title="Close Menu"

@@ -15,7 +15,7 @@
               Your Diary: <br> {{ this.diary.title }}
             </h2>
             <div class="flex items-center sm:justify-center">
-              <a :href="`http://localhost:3000/diarys/${this.diary.code}/new/`" aria-label=""
+              <a :href="`https://simply-diary.xyz/diarys/${this.diary.code}/new/`" aria-label=""
                 class="inline-flex items-center font-semibold text-gray-700 transition-colors duration-200 hover:text-simplydiary-primary">Create new diary entry</a>
             </div>
           </div>

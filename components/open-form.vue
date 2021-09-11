@@ -3,7 +3,7 @@
     <form class="flex flex-col items-center w-full mb-3 md:flex-row md:px-16" @submit.prevent="open">
       <input placeholder="Diary Code" required="" type="text" v-model="diaryCode"
         class="flex-grow w-full h-12 px-4 mb-3 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none md:mr-2 md:mb-0 focus:border-simplydiary-secondary focus:outline-none focus:shadow-outline" />
-      <button type="submit" :href="`http://localhost:3000/diarys/${this.diaryCode}`"
+      <button type="submit" :href="`https://simply-diary.xyz/diarys/${this.diaryCode}`"
         class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-simplydiary-primary hover:bg-simplydiary-secondary focus:shadow-outline focus:outline-none">
         Open
       </button>

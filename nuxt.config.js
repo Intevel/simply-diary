@@ -8,8 +8,10 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' }
+      { hid: 'description', name: 'description', content: 'Simply Diary is an open source platform for an online diary, its really just a diary. Each diary has its own code, who knows the code also has access to the diary. Completely free and without registration.' },
+      { name: 'format-detection', content: 'telephone=no' },
+      { hid: 'og:description', name: 'og:description', content: 'Simply Diary is an open source platform for an online diary, its really just a diary. Each diary has its own code, who knows the code also has access to the diary. Completely free and without registration.' },
+	  { name: "theme-color", content: "#d41a4c" },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
