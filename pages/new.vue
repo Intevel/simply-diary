@@ -1,6 +1,7 @@
 <template>
   <div>
 	  <navbar />
+	  <new-hero />
   </div>
 </template>
 <style>
