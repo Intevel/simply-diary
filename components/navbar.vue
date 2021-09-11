@@ -75,7 +75,7 @@ ZTptb2RpZnkAMjAyMS0wOS0wOVQxMDozNjozNyswMzowMDm/SD4AAAAASUVORK5CYII=" />
         </li>
 
         <li>
-          <a href="/"
+          <a href="https://github.com/cnrycodes/simply-diary/issues"
             class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-simplydiary-primary">
             Feature Request</a>
         </li>
@@ -190,7 +190,7 @@ ZTptb2RpZnkAMjAyMS0wOS0wOVQxMDozNjozNyswMzowMDm/SD4AAAAASUVORK5CYII=" />
                     class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-simplydiary-primary">Github</a>
                 </li>
                 <li>
-                  <a href="/"
+                  <a href="https://github.com/cnrycodes/simply-diary/issues"
                     class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-simplydiary-primary">
                     Feature Request</a>
                 </li>
