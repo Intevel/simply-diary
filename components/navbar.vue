@@ -70,7 +70,7 @@ ZTptb2RpZnkAMjAyMS0wOS0wOVQxMDozNjozNyswMzowMDm/SD4AAAAASUVORK5CYII=" />
             Home</NuxtLink>
         </li>
         <li>
-           <a href="https://github.com/cnrycodes/simply-diary/"
+          <a href="https://github.com/cnrycodes/simply-diary/"
             class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-simplydiary-primary">Github</a>
         </li>
 
@@ -122,7 +122,7 @@ AO7DE7hxzG0QM92IogMlMW0agT9Gno0ErgMW2wnWAj+MtElYInzE3ncAn0VMDNAK/Bf4BfLsl9k5
 lNl57QPWAdcDNbZ9NhigEvikJdYoj2AdwBbgJuA3wKv0HKUELAMmAQTwICZ9ie1XSJsSQ3AFAVcg
 RmwGLgd6g7lHAh8DPgic6O1TgIRPezffG+D9wFeACUhg/CVH27OAq4DzLC2d9m1DAuwIwgP8ItmZ
 OwFUAF9AwnOEfVZr++wErkSHyCCBthhYE+nnPcD30AFtB76JeGI/4pi7FPg8Os1JsiPqoLzBEnlc
-lvf+d47JSoCx3ruh6CRPR4wwOTKHEiQ1jgW+Cvye7KpsJjpsZ9i5EelnMvBl4HgUJttCj2CehqA
+lvf+d47JSoCx3ruh6CRPR4wwOTKHEiQ1jgW+Cvye7KpsJjpsZ9i5EelnMvBl4HgUJttCj2CehqAW
 CQJ3kOYAf/YaTQLOtesCeAb4T8/GicVYtEdXISaP0npMnv1MtLSE7Ps1BAmYn1taRXlmGNK8dNOP
 wxzgWrQvcfzXhCT/FKSJjkGWwFpCLTscCSwnFOtRuDNDm8c5lCcA8wmZqh3YgeKl7tpJvGQo1CPv
 JFQnCeAoO49k5L2z7yYCXwTenKW/sSjGexYhY3egA+P7ASOR9LqSHjrXhmAvcBtSySCGWrL+qCqf
