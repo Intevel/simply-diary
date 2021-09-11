@@ -12,10 +12,11 @@
             class="max-w-lg mb-6 font-sans text-6xl font-bold leading-none tracking-tight text-gray-900 sm:text-6xl md:mx-auto">
             Please enter your diary code to open the diary.
           </h2>
-          <a href="#">
+          <NuxtLink
+            to="/new/">
             <p class="text-bold text-simplydiary-secondary md:text-lg">
               Do you want to create a new diary?</p>
-          </a>
+          </NuxtLink>
         </div>
         <open-form />
       </div>
