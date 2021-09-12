@@ -1,5 +1,6 @@
 # simply-diary
-Simply Diary is an open source platform for an online diary, its really just a diary. Each diary has its own code, who knows the code also has access to the diary. Completely free and without registration.
+Simply Diary is an open source platform for an online diary, its really just a diary. 
+Each diary has its own code, who knows the code also has access to the diary. Completely free and without registration.
 
 ## Build Setup
 
