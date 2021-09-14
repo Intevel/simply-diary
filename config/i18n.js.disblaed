@@ -1,0 +1,8 @@
+import en from '../locales/en.json'
+import de from '../locales/de.json'
+export default {
+  locale: 'en',
+  defaultLocale: "en",
+  fallbackLocale: 'en',
+  messages: { en, de }
+}

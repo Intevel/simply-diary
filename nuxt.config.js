@@ -57,12 +57,38 @@ export default {
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: ['@nuxtjs/tailwindcss', '@nuxtjs/pwa'],
+  buildModules: ['@nuxtjs/tailwindcss', '@nuxtjs/pwa', ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    "@nuxtjs/axios"
+    "@nuxtjs/axios",
+    '@nuxtjs/i18n'
   ],
+
+  i18n: {
+    locales: ['en', 'de'],
+    defaultLocale: 'en',
+    detectBrowserLanguage: {
+      useCookie: true,
+      cookieKey: 'simplydiary_lang',
+      redirectOn: 'root', // recommended
+    },
+    vueI18n: {
+      fallbackLocale: 'en',
+      messages: {
+        en: {
+          index: {
+            heroMessage1: "It's really just a diary, but online."
+          },
+        },
+        de: {
+          index: {
+            heroMessage1: "Es ist wirklich nur ein Tagebuch, nur online!"
+          },
+        }
+      }
+    }
+  },
 
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

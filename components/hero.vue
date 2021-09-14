@@ -10,7 +10,7 @@
           <h2 class="max-w-lg mb-6 font-sans text-6xl font-bold leading-none tracking-tight text-gray-900 sm:text-6xl md:mx-auto">
             
 			
-           It's really just a diary, but online.
+           {{ $t('index.heroMessage1') }}
           </h2>
           <p class="text-medium text-gray-700 md:text-lg">
            Simply Diary is an free open-source online diary that allows you to keep a diary that no one else can see but you.</p>
