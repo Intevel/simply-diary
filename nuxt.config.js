@@ -62,28 +62,31 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     "@nuxtjs/axios",
-    '@nuxtjs/i18n'
+    ['@nuxtjs/i18n', {
+      detectBrowserLanguage: {
+        useCookie: true,
+        cookieKey: 'simplydiary_lang'
+      },
+    }],
   ],
 
   i18n: {
     locales: ['en', 'de'],
-    defaultLocale: 'en',
-    detectBrowserLanguage: {
-      useCookie: true,
-      cookieKey: 'simplydiary_lang',
-      redirectOn: 'root', // recommended
-    },
     vueI18n: {
-      fallbackLocale: 'en',
+
       messages: {
         en: {
           index: {
-            heroMessage1: "It's really just a diary, but online."
+
+            heroMessage1: "It's really just a diary, but online.",
+            heroMessage2: "Simply Diary is an free open-source online diary that allows you to keep a diary that no one else can see but you."
           },
         },
         de: {
           index: {
-            heroMessage1: "Es ist wirklich nur ein Tagebuch, nur online!"
+            heroMessage1: "Es ist wirklich nur ein Tagebuch, nur online!",
+            heroMessage2: "Simply Diary ist ein kostenloses Open-Source-Online-Tagebuch, mit dem Sie ein privates Tagebuch führen können.",
+
           },
         }
       }
