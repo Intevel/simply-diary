@@ -116,9 +116,9 @@ LTA5LTEyVDE0OjI0OjQwKzAzOjAwLmL6PAAAAABJRU5ErkJggg==" />
             class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-simplydiary-primary">
             Feature Request</a>
         </li>
-		<li>
+		<!--<li>
           <LanguageInput />
-        </li>
+        </li>!-->
       </ul>
       <ul class="flex items-center hidden space-x-8 md:flex">
         <li>
@@ -250,7 +250,7 @@ ZTptb2RpZnkAMjAyMS0wOS0wOVQxMDozNjozNyswMzowMDm/SD4AAAAASUVORK5CYII=" />
 </template>
 
 <script>
-import LanguageInput from "./LanguageInput.vue";
+import LanguageInput from "./LanguageInput.vue.disabled";
 
   export default {
     data() {
