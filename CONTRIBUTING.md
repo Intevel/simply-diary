@@ -1,17 +1,16 @@
-# Contributing to this repository
+# Contribution Guide
 
 ### Introduction
 
 - This site is built with Nuxt.js and TailwindCSS
-- Check out the existing issues for ways to contribute
 
-### Have a new feature request or see a bug?
+### Feature request or see a bug?
 
-Create a new issue! On the issue we can discuss the problem and assign the work.
+Create a new issue to allow us and other users to discuss the proposed change and work on implementing it.
 
-### Ready to contribute?
+### How to contribute?
 
-1. Comment on the issue to claim it
-2. Create a fork of the repo
-3. Work on your fork, then open a pull request. Tag the issue in your pull request
-4. Your PR will be reviewed, and if it is approved it will be merged into `main`
+1. Comment on the issue you are planning to resolve
+2. Fork the repository
+3. Fix the problems the issue creator was facing. Open a pull request and tag the issue in your pull request/commits in the pull request
+4. Your PR will be reviewed, and once it's approved it will be merged into `main`
