@@ -5,7 +5,7 @@
         class="flex-grow w-full h-12 px-4 mb-3 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none md:mr-2 md:mb-0 focus:border-simplydiary-secondary focus:outline-none focus:shadow-outline" />
       <button type="submit"
         class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-simplydiary-primary hover:bg-simplydiary-secondary focus:shadow-outline focus:outline-none">
-        Ceate
+        Create
       </button>
     </form>
     <div class="flex flex-col items-center w-full mb-4 md:flex-row md:px-16">
