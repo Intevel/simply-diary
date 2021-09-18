@@ -24,7 +24,7 @@
 
     </div>
     <div class="px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-16">
-      <div class="max-w-screen-lg sm:mx-auto">
+      <div class="max-w-screen-2xl sm:mx-auto">
         <div class="col-lg-12 text-start mt-5">
           <DiaryEntry v-for="post in this.entrys" :key="post.created_at" :created_at="post.date_string"
             :content="post.content">
