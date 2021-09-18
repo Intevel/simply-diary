@@ -7,7 +7,7 @@
           <div class="max-w-xl md:mx-auto sm:text-center lg:max-w-2xl">
             <div>
               <p
-                class="inline-block px-3 py-1 mb-4 text-xs font-bold tracking-wider text-white rounded-full bg-simplydiary-primary">
+                class="inline-block px-3 py-1 mb-4 text-xs font-bold tracking-wider text-white rounded-full bg-simplydiarynew-primary">
                 Diary Code: {{ this.diary.code }} </p>
             </div>
             <h2
@@ -16,7 +16,7 @@
             </h2>
             <div class="flex items-center sm:justify-center">
               <a :href="`https://simply-diary.xyz/diarys/${this.diary.code}/new/`" aria-label=""
-                class="inline-flex items-center font-semibold text-gray-700 transition-colors duration-200 hover:text-simplydiary-primary">Create new diary entry</a>
+                class="inline-flex items-center font-semibold text-gray-700 transition-colors duration-200 hover:text-simplydiarynew-primary">Create new diary entry</a>
             </div>
           </div>
         </div>

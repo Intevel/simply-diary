@@ -62,12 +62,12 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     "@nuxtjs/axios",
-    ['@nuxtjs/i18n', {
-      detectBrowserLanguage: {
-        useCookie: true,
-        cookieKey: 'simplydiary_lang'
-      },
-    }],
+    //['@nuxtjs/i18n', {
+     // detectBrowserLanguage: {
+     //   useCookie: true,
+       // cookieKey: 'simplydiary_lang'
+    //  },
+   // }],
   ],
 
   i18n: {

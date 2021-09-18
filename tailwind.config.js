@@ -26,6 +26,11 @@ module.exports = {
 			"primary": "#d41a4c",
 			"secondary": "#E75B80",
 		},
+		'simplydiarynew': {
+			"primary": "#10B981",
+			"secondary": "#5BB981"
+			
+		},
         
         pink: {
           50: '#fce4ec',
@@ -160,7 +165,7 @@ module.exports = {
         '30': '.3',
       },
       boxShadow: {
-        outline: '0 0 0 3px rgba(245, 29, 134, 0.4)',
+        outline: '0 0 0 3px rgba(16, 185, 129, 0.4)',
       },
     },
   },

@@ -5,7 +5,7 @@
         <div class="max-w-xl mb-4 md:mx-auto sm:text-center lg:max-w-2xl md:mb-6">
           <div>
             <p
-              class="inline-block px-3 py-1 mb-4 text-xs font-bold tracking-wider text-white uppercase rounded-full bg-simplydiary-primary">
+              class="inline-block px-3 py-1 mb-4 text-xs font-bold tracking-wider text-white uppercase rounded-full bg-simplydiarynew-primary">
               Simply Diary</p>
           </div>
           <h2
@@ -14,7 +14,7 @@
           </h2>
           <NuxtLink
             to="/new/">
-            <p class="text-bold text-simplydiary-secondary md:text-lg">
+            <p class="text-bold text-simplydiarynew-secondary md:text-lg">
               Do you want to create a new diary?</p>
           </NuxtLink>
         </div>
