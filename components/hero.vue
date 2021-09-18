@@ -10,7 +10,7 @@
               Simply Diary</p>
           </div>
           <h2
-            class="max-w-7xl mb-6 font-sans text-9xl font-extrabold leading-none tracking-tight text-gray-900 sm:text-6xl md:mx-auto">
+            class="max-w-5xl mb-6 font-sans text-5xl font-extrabold leading-none tracking-tight text-gray-900 sm:text-6xl md:mx-auto">
 
             <span class="relative inline-block">
               <svg viewBox="0 0 52 24" fill="currentColor"
