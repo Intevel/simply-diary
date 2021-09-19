@@ -10,7 +10,7 @@
         <p class="text-base text-gray-700 md:text-lg mb-2">
           {{ content }}
         </p>
-        <a href="/" aria-label=""
+        <button @click="deleteEntry" aria-label=""
           class="inline-flex items-center font-semibold transition-colors duration-200 text-simplydiarynew-primary hover:text-simplydiarynew-secondary">
           Delete
           <svg class="inline-block w-6 ml-2" fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="64"
@@ -20,14 +20,25 @@
             <path fill-rule="evenodd"
               d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z" />
           </svg>
-        </a>
+        </button>
       </div>
     </div>
   </div>
 </template>
-<script>
-  export default {
-    props: ['content', 'created_at'],
-  }
+<script lang="ts">
+  import Vue from "vue";
+  export default Vue.extend({
+    props: ['content', 'created_at', "delete_url", "timestamp"],
+
+    methods: {
+      async deleteEntry() {
+        console.log("action: deleted")
+        var response = await this.$axios.delete(`https://api.simply-diary.xyz/v1/diarys/${this.$nuxt.context
+          .params
+          .slug}/posts/${this.timestamp}`);
+        window.location.reload(true)
+      }
+    }
+  });
 
 </script>

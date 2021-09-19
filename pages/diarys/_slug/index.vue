@@ -16,7 +16,8 @@
             </h2>
             <div class="flex items-center sm:justify-center">
               <a :href="`https://simply-diary.xyz/diarys/${this.diary.code}/new/`" aria-label=""
-                class="inline-flex items-center font-semibold text-gray-700 transition-colors duration-200 hover:text-simplydiarynew-primary">Create new diary entry</a>
+                class="inline-flex items-center font-semibold text-gray-700 transition-colors duration-200 hover:text-simplydiarynew-primary">Create
+                new diary entry</a>
             </div>
           </div>
         </div>
@@ -26,13 +27,13 @@
     <div class="px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-16">
       <div class="max-w-screen-2xl sm:mx-auto">
         <div class="col-lg-12 text-start mt-5">
-          <DiaryEntry v-for="post in this.entrys" :key="post.created_at" :created_at="post.date_string"
-            :content="post.content">
+          <DiaryEntry v-for="post in this.entrys" :key="post.created_at" :created_at="post.date_string" :timestamp="post.created_at"
+            :content="post.content" :delete_url="`https://api.simply-diary.xyz/v1/diarys//posts/${post.created_at}`">
           </DiaryEntry>
         </div>
       </div>
     </div>
-<footer-lp />
+    <footer-lp />
   </div>
 </template>
 <style>
@@ -65,7 +66,7 @@
 
     methods: {
       async download() {
-        
+
 
       }
     },
@@ -73,12 +74,11 @@
 
     mounted: async function () {
       try {
-        var fetchedDiary = await this.$axios.get("https://api.simply-diary.xyz/v1/diarys/" + this.$nuxt.context.params
+        var fetchedDiary = await this.$axios.get("https://api.simply-diary.xyz/v1/diarys/" + this.$nuxt.context
+          .params
           .slug)
         this.diary = fetchedDiary.data;
         this.entrys = fetchedDiary.data.posts;
-        console.log(this.entrys)
-        console.log(this.diary)
       } catch (err) {
         console.log("error" + err);
         this.$nuxt.context.error({
