@@ -35,7 +35,7 @@
             class="inline-flex items-center justify-center h-12 rounded-full py-3 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 shadow-md bg-simplydiarynew-primary hover:bg-simplydiarynew-secondary focus:shadow-outline focus:outline-none">
             Create a Diary
           </NuxtLink>
-          <a href="https://github.com/cnrycodes/simply-diary/stargazers" aria-label=""
+          <a href="https://github.com/cnrycodes/simply-diary/" aria-label=""
             class="inline-flex items-center font-semibold text-gray-700 transition-colors duration-200 hover:text-simplydiarynew-primary">Star
             us on Github</a>
         </div>
