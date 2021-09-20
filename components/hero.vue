@@ -27,8 +27,7 @@
             really just a diary, but online.
           </h2>
           <p class="text-medium text-gray-700 md:text-lg">
-            Simply Diary is an free open-source online diary that allows you to keep a diary that no one else can see
-            but you. </p>
+            Simply Diary is an open source platform to write online diary, its completely free and works without registration.</p>
         </div>
         <div class="flex items-center sm:justify-center">
           <NuxtLink to="/new/"
