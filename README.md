@@ -13,7 +13,7 @@
 
 - **Open-Source**. the project is fully open source, both backend and frontend.
 - **Free**. you can create a diary for free and without registration.
-- **Anonym**. it is completely anonymous, you just have to remember your diary code.
+- **Anonymous**. it is completely anonymous, you just have to remember your diary code.
 
 Simply Diary is an open source platform to write online diary. Each diary has its own short code making it easily idenfiable for collaborators and diary contributors. Simply Diary is completely free and works without registration, just remember your diary identification codes.
 
