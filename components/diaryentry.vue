@@ -1,7 +1,7 @@
 <template>
 
   <div
-    class="flex flex-col text-start py-4 transition duration-300 transform rounded sm:px-4 lg:flex-row sm:hover:translate-x-4 sm:hover:bg-gray-50">
+    class="diaryentry flex flex-col text-start py-4 transition duration-300 transform rounded sm:px-4 lg:flex-row sm:hover:translate-x-4 sm:hover:bg-gray-50">
     <div class="mb-4 lg:mb-0">
       <h5 class="mb-4 text-xl font-bold leading-none sm:text-2xl">
         {{ created_at }}
@@ -28,7 +28,7 @@
 <script lang="ts">
   import Vue from "vue";
   export default Vue.extend({
-    props: ['content', 'created_at', "delete_url", "timestamp"],
+    props: ['content', 'created_at', "timestamp"],
 
     methods: {
       async deleteEntry() {
