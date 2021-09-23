@@ -1,9 +1,9 @@
-const defaultTheme = require('tailwindcss/defaultTheme');
+const defaultTheme = require('tailwindcss/defaultTheme')
 module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['ui-sans-serif', 'system-ui']
+        sans: ['ui-sans-serif', 'system-ui'],
       },
       colors: {
         red: {
@@ -22,16 +22,15 @@ module.exports = {
           'accent-400': '#ff1744',
           'accent-700': '#d50000',
         },
-		'simplydiary': {
-			"primary": "#d41a4c",
-			"secondary": "#E75B80",
-		},
-		'simplydiarynew': {
-			"primary": "#10B981",
-			"secondary": "#5BB981"
-			
-		},
-        
+        simplydiary: {
+          primary: '#d41a4c',
+          secondary: '#E75B80',
+        },
+        simplydiarynew: {
+          primary: '#71B664',
+          secondary: '#53B640',
+        },
+
         pink: {
           50: '#fce4ec',
           100: '#f8bbd0',
@@ -48,7 +47,7 @@ module.exports = {
           'accent-400': '#f50057',
           'accent-700': '#c51162',
         },
-        
+
         gray: {
           50: '#fafafa',
           100: '#f5f5f5',
@@ -73,7 +72,7 @@ module.exports = {
           800: '#37474f',
           900: '#263238',
         },
-        
+
         amber: {
           50: '#fff8e1',
           100: '#ffecb3',
@@ -175,7 +174,5 @@ module.exports = {
     opacity: ['responsive', 'hover', 'focus', 'group-hover'],
     backgroundColor: ['responsive', 'hover', 'focus', 'group-hover'],
   },
-  plugins: [
-    require('@tailwindcss/custom-forms'),
-  ]
-};
+  plugins: [require('@tailwindcss/custom-forms')],
+}
