@@ -2,16 +2,15 @@
   <div>
     <navbar />
     <open-hero />
-	<footer-lp />
   </div>
 </template>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 body {
-	background-color: #F5F4F4 !important;
+  background-color: #f5f4f4 !important;
 }
 
-.font-nunito{
-	font-family: "Nunito", sans-serif !important;
+.font-nunito {
+  font-family: 'Nunito', sans-serif !important;
 }
 </style>

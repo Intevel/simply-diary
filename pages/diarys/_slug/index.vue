@@ -83,7 +83,6 @@
         </div>
       </div>
     </div>
-    <footer-lp />
   </div>
 </template>
 <style>
