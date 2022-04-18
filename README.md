@@ -9,6 +9,8 @@
 
 <br />
 
+⚠️ This project is archived and not longer maintained ⚠️
+
 ## ✨ About
 
 - **Open-Source**. the project is fully open source, both backend and frontend.
